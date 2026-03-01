@@ -1,0 +1,16 @@
+body{
+font-family: Arial;
+text-align:center;
+padding:40px;
+}
+
+textarea{
+width:80%;
+height:120px;
+margin:10px;
+}
+
+input,select{
+padding:10px;
+width:60%;
+}
