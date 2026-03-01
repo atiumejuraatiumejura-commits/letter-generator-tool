@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Letter Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>AI Letter Generator</h1>
+
+<select id="type">
+<option>Leave Application</option>
+<option>Job Application</option>
+<option>Complaint Letter</option>
+</select>
+
+<br><br>
+
+<input type="text" id="name" placeholder="Your Name">
+
+<br><br>
+
+<textarea id="reason" placeholder="Write reason"></textarea>
+
+<br><br>
+
+<button onclick="generateLetter()">Generate</button>
+
+<h3>Output:</h3>
+
+<textarea id="output"></textarea>
+
+<script src="script.js"></script>
+
+</body>
+</html>
